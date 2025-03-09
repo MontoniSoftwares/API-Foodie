@@ -3,8 +3,6 @@ import express from "express";
 import router from "./routes.js";
 
 const app = express();
-
-// Porta dinâmica fornecida pelo Render ou padrão 3000
 const PORT = process.env.PORT || 3000;
 
 // Middlewares
